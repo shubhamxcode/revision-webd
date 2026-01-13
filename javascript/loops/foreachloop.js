@@ -11,5 +11,6 @@ const stocks=["tatasilver","pw","tatagold"]
 stocks.forEach((name,index)=>{
     stocks[index]=name.toUpperCase()
 })
-
 console.log(stocks)
+
+
