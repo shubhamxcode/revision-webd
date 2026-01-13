@@ -12,4 +12,3 @@ for (let i=0; i<countryname.length; i++){
     console.log(countryname[i])
 }
 
-

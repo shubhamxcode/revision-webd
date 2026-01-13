@@ -1,0 +1,26 @@
+<!-- // event propogation is the order in which events are triggerd on html element
+
+
+// There are 3 phases:
+
+// Capturing phase
+
+// Target phase
+
+// Bubbling phase
+
+//Event Bublling-Event bubbling means the event starts from the target element and moves upward to its parent elements. -->
+<!-- Event capturing means the event starts from the parent and goes down to the target element. -->
+
+<div id="parent">
+  <button id="child">Click Me</button>
+
+  <script>
+    document.getElementById("parent").addEventListener("click",function(){
+      console.log("Parent clicked");
+    },true);
+    document.getElementById("child").addEventListener("click", () => {
+  console.log("Child clicked");
+});
+  </script>
+</div>
